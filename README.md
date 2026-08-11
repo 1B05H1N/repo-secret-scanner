@@ -1,5 +1,7 @@
 # repo-secret-scanner
 
+[![CI](https://github.com/1B05H1N/repo-secret-scanner/actions/workflows/ci.yml/badge.svg)](https://github.com/1B05H1N/repo-secret-scanner/actions/workflows/ci.yml)
+
 Scan a directory tree for hardcoded secrets before they reach a remote. Combines
 high-signal vendor patterns (cloud keys, tokens, private keys) with a generic
 assignment + Shannon-entropy check. Matches are always redacted in output, so
